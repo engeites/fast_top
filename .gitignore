@@ -1,0 +1,5 @@
+.idea
+/app/logs
+data_example.txt
+__pycache__/
+.DS_Store
