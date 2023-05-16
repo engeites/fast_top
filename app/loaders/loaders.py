@@ -4,8 +4,8 @@ from abc import ABC
 
 import requests
 
-ENDPOINT = "https://api.moonscap.com/la/topUpDialogStat"  # ?day=Saturday
-HEADERS: dict = {"Authorization": "Bearer askdladkaslkasmLKAsdaa81282kj2kj2skksdajkj2jk2jkjasd"}
+ENDPOINT = config.ENDPOINT
+HEADERS: Config.HEADERS
 
 
 class Loader(ABC):
